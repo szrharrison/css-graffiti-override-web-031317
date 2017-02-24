@@ -1,1 +1,10 @@
 /* write your override styles here */
+#wall .tag-1,
+#wall div#tag-2,
+div#wall #tag-3.slick.wicked,
+#wall .parent #tag-4,
+div#wall div.parent #tag-5.slick,
+div#wall div.parent:nth-child(6) div:last-child div#tag-6,
+body div#wall div.parent div div#tag-7.slick
+/* Note: The immediate child '>' selector adds NO specificity to the CSS selector */
+{ display: none; }
